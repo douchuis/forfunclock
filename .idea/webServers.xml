@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7c07cdb5-db4d-4583-ad40-3ef0d5727eee" name="api07.tic.heia-fr.ch" url="http://160.98.47.87">
+        <fileTransfer host="160.98.47.87" port="22" privateKey="C:\Users\duchuy.nguyen\keys_virtuel\keyprivatedapiti.ppk" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
