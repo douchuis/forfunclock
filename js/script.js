@@ -6,7 +6,7 @@ function realtimeClock() {
     var seconde = rtClock.getSeconds();
 
     var amPm = (hour < 12) ? "AM" : "PM";
-    // hour = (hour > 12) ? hour -12 : hour;
+    hour = (hour > 12) ? hour -12 : hour;
 
     hour = ("0" + hour).slice(-2);
     minute = ("0" + minute).slice(-2);
